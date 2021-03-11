@@ -6,17 +6,13 @@ spring:
 #    password: admin
 #    url: jdbc:postgresql://localhost:5433/editor
 #    username: postgres
-#  datasource:
-#    url: ${URL}
-#    username: ${USERNAME}
-#    password: ${PASSWORD}
-#    platform: postgres
-
   datasource:
-    url: jdbc:postgresql://ec2-52-7-115-250.compute-1.amazonaws.com:5432/ddf65mbfgop3pu
-    username: yhknwanvqhfqno
-    password: 2da2275aeb31fa0a830f2145400f19976148a0bec2cfcf1158b2355e9fca9a23
+    url: ${URL}
+    username: ${USERNAME}
+    password: ${PASSWORD}
     platform: postgres
+
+
   jpa:
     hibernate:
       ddl-auto: update
