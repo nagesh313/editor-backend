@@ -7,7 +7,7 @@ spring:
 #    url: jdbc:postgresql://localhost:5433/editor
 #    username: postgres
   datasource:
-    url: ${URL}
+    url: jdbc:postgresql://ec2-52-7-115-250.compute-1.amazonaws.com:5432/ddf65mbfgop3pu
     username: ${USERNAME}
     password: ${PASSWORD}
     platform: postgres
